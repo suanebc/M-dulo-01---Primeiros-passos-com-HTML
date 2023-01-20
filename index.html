@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dio-Formação HTML Web Developer</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Primeiros Passos com HTML</h1>
+        <p>A ideia desta página é elaborar um website utilizando uma estrutura básica de HTML com tags que foram
+            aprendidas durante as aulas práticas.</p>
+        <h2 id="inicio"><mark>Índice</mark></h2>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#ferramenta">Ferramentas Utilizadas</a>
+            </li>
+            <li> <a href="#usando">Usando o Inspetor de Elementos</a></li>
+            <li><a href="#falando">Falando Sobre Tags</a></li>
+            <li><a href="#atributo">Atributos Básicos</a></li>
+            <li><a href="#executando">Executando uma Página HTML</a></li>
+            <li><a href="#textos">Textos</a></li>
+            <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+    </nav>
+
+    <h2 id="ferramenta">Ferramentas Utilizadas</h2>
+    <a href="#inicio"> voltar </a></small>
+    <p>A principal ferramenta para se desenvolver uma página web é um o editor de texto. Pode ser usado o <a
+            href="https://www.sublimetext.com/" title="clique aqui para conhecer">Sublime</a>, um editor de notas, <a
+            href="https://notepad-plus-plus.org/" title="clique aqui para conhecer">Notepad++</a>. No curso Introdução
+        ao HTML na Prática - Dio foi escolhido o <a href="https://code.visualstudio.com/"
+            title="clique aqui para conhecer">Visual estudio Code</a>. </p>
+    <hr>
+    <h2 id="usando">Usando o Inspetor de Elementos</h2>
+    <a href="#inicio"> voltar </a></small>
+    <p>Todo navegador web inclui um conjunto de ferramentas para ser usada por desenvolvedores. Com elas é possível
+        inspecionar o HTML, o CSS e os codigos em JavaScript que forem carregados.
+        No navegador Chrome o atalho de acesso para essa ferramenta é F12.
+    </p>
+    <hr>
+    <h2 id="falando">Falando Sobre <i>Tags</i> </h2>
+    <a href="#inicio"> voltar </a></small>
+    <p>“Tag” em inglês significa etiqueta e em um arquivo HTML, elas são usadas para etiquetar as informações e
+        estruturar o arquivo. Aparti do agrupamento das informações é possível classificar os tópicos do site e define o
+        que será mostrado de forma temática e organizada.</p>
+    
+    <hr>
+    <h2 id="atributo">Atributos Básicos</h2>
+    <a href="#inicio"> voltar </a></small>
+    <p>Exixtem atributos no HTML que são globais e usados por todas as tags, como class, id, lang, style e outros que
+        são específicos para algumas tags como src, disabled, href, label, etc…</p>
+    <hr>
+    <h2>Executando uma Página HTML</h2>
+    <a href="executando"> voltar </a></small>
+    <p>
+        Um arquivo HTML válido deve seguir a estrutura composta pelas tags <u>html</u>, <u>head</u> e <u>body</u> e a instrução !DOCTYPE. 
+        <img src="estrtutura-html.png" alt="agrupamento de tags">
+    </p>
+    <h2 id="textos">Textos</h2>
+    <a href="#inicio"> voltar </a></small>
+    <p>As principais tags para titulos são as já pré-formatadas nos navegadores que são: h1, h2, h3, h4, h5 e h6. Abaixo
+        segue a lista com demais tag's para textos. </p>
+    <ul>
+        <li>
+            <h4>Paragrafo</h4>
+            <p>A tag que tem a função de formatar um bloco de texto como parágrafo é a tag <u>p</u> .</p>
+        </li>
+        <li>
+            <h4>Negrito</h4>
+            <p>A tag que tem a função de formatar um bloco de texto como negrito é a tag <u>strong</u> ou <u>b</u> .</p>
+        </li>
+        <li>
+            <h4>Itálico</h4>
+            <p>A tag que tem a função de formatar um bloco de texto como itálico é a tag <u>i</u>.</p>
+        </li>
+        <li>
+            <h4>Sublinhado</h4>
+            <p>A tag que tem a função de formatar um bloco de texto como sublinhado é a tag <u>u</u>.</p>
+        </li>
+        <li>
+            <h4>Subscrito</h4>
+            <p>A tag que tem a função de formatar um bloco de texto como em subscrito é a tag <u>sub</u>.</p>
+        </li>
+        <li>
+            <h4>Sobrescrito</h4>
+            <p>A tag que tem a função de formatar um bloco de texto como em subrescrito é a tag <u>sup</u>.</p>
+        </li>
+        <li>
+            <h4>Marcar Texto</h4>
+            <p>A tag que tem a função de marcar um bloco de texto com a cor de fundo amarela é a tag <u>mark</u>.</p>
+        </li>
+        <li>
+            <h4>Texto com Menor Tamanho</h4>
+            <p>A tag que tem a função de formatar um bloco de texto como emenor tamanho é a tag <u>small</u>.</p>
+        </li>
+    </ul>
+    <hr>
+    <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2>
+    <a href="inicio"> voltar </a></small>
+    <p>O HTML tem duas tag's para que possamos fazer uso de listas. exite a lista não ordenada definida pela tag
+        <u>ul</u>(unordered list) e a lista ordenada definida pela tag <u>ol</u>. Para cada tipo de lista é necessário
+        que se tenha os itens dentro da tag <u>li</u>.
+    </p>
+    <hr>
+    <h2 id="links">Links <small></h2>
+    <a href="#inicio"> voltar </a></small>
+    <p>Os links no HTML possuem a função de inserir hiperlinks nos elementos da página através da tag <u>a</u>. Todo
+        link possue o atributo href="" que redirecionar para outra página, de três formas diferentes:
+    <ul>
+        <li>
+            <b>interno</b> : redireciona para um elemento existente dentro da mesma página;
+        </li>
+        <li><b>local</b> : utilizados para páginas contendo o mesmo domínio, ou seja, entre páginas do mesmo site;</li>
+        <li>
+            <b>global</b> : utilizados para páginas de outros domínios, ou seja, fora do site.
+        </li>
+    </ul>
+    <h4>O Atributo target</h4>
+    <p>O atributo <u>target</u> informa para o navegador como redirecionar a abertura da página, na mesma aba ou em uma
+        nova.
+        <br>
+        O atributo target pode ser do tipo:
+    <ol>
+        <li><b>_blank</b> : abre a página em uma nova janela/aba;</li>
+        <li><b>_self</b> : abre a página na mesma janela;</li>
+        <li><b>_parent</b> : abre a página na mesma janela do link;</li>
+        <li><b>_top</b> : cancela todos os demais frames e abre a nova página no mesmo navegador.</li>
+    </ol>
+    O atributo title:
+    O atributo title mostra um texto que aparecerá apenas quando for passado o mouse por cima do link.
+    </p>
+
+    <footer>
+        <p>| Formação HTML Web Developer - Dio |</p>
+        <p> Suane Bittencourt de Camargo - Todos os direitos Reservados - 2023.</p>
+
+    </footer>
+</body>
+
+</html>
